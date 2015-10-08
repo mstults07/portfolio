@@ -1,0 +1,149 @@
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #efefef;
+}
+section { 
+  clear: both;
+  margin: 0 auto;
+  padding: 0;
+  width: 650px;
+}
+footer {
+  background-color: #ffffff;
+  padding: 3em 0;
+  width: 100%;
+  text-align: center;
+}
+.masthead {
+  padding: 6em 0;
+  border-top: 15px solid #000000;
+  background-image:url(http://wac.7725.edgecastcdn.net/807725/website/wp-content/uploads/2015/04/mass-effect-2-game-hd-wallpaper-1920x1080-3091.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.masthead-intro {
+  text-align: center;
+  margin-bottom: 0.1em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+}
+.masthead-heading {
+  text-align: center;
+  margin-top: -0.2em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5em;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #FFFFFF;
+}
+.intro-title{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  color: #333333;
+}
+.intro-text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #333333;
+}
+a {
+  text-decoration: none;
+  color: #006699;
+}
+a:hover {
+  text-decoration: none;
+  color: #999999;
+}
+h2 {
+  font-family: georgia, serif;
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+}
+section > p {
+  /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+h2, .colortext {
+  color: #006699;
+  font-weight: bold;
+}
+
+.item {
+  margin: 1em .5em 1em 0;
+  display: inline-block;
+  position: relative;
+}
+
+.item img {
+  border: 4px solid #006699;
+  width: 200px;
+}
+
+#item3,#item4 {
+  margin-right: 0;
+}
+
+.overlayText {
+    width: 208px;
+    height: 146px;
+    padding: 9%;
+    text-align: center;
+    display: none; 
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+    /*border:2px solid black;*/
+    box-sizing: border-box;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.overlayText h3 {
+  font-family: 'Avant Garde', sans-serif;
+  font-size: 1.25em;
+  color: #006699;
+
+}
+
+.overlayText a {
+  margin-top: 2em;
+  padding: 0 .5em;
+  display:inline-block;
+}
+
+.overlayText a:link {
+  color:#006699;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.overlayText a:hover {
+  border: none;
+  text-decoration: underline;
+  color: #333333;
+}
+.bolded {
+  font-weight: bold;
+}
+.social {
+  padding: .5em;
+  margin-top: -1.5em;
+  width: 24px;
+}
+@media screen and (max-width: 500px){
+  section {
+    width: 100%;}
+ .masthead-heading {
+    font-size: 3em;
+  }
+ .masthead {
+   padding: 3em 0;
+}
